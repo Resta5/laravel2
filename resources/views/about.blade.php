@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Thai Blog</title>
+        <title>Clean Blog - Start Bootstrap Theme</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
@@ -22,14 +22,14 @@
         <!-- Navigation-->
 
         <!-- Page Header-->
-         @section('header')
-        <header class="masthead" style="background-image: url('assets/img/valorant.jpg')">
+        @section('header')
+        <header class="masthead" style="background-image: url('assets/img/bre.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>Thai Blog</h1>
-                            <span class="subheading">Blog By Restaiii</span>
+                        <div class="page-heading">
+                            <h1>About Me</h1>
+                            <span class="subheading">This is what I do.</span>
                         </div>
                     </div>
                 </div>
@@ -37,21 +37,15 @@
         </header>
         @endsection
         <!-- Main Content-->
-        @section('content')
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Tugas Template</h2>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Restaiii</a>
-                            on October, 2021
-                        </p>
-                    </div>
+        <main class="mb-4">
+            @section('content')
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Not yet</p> </div>
+                </div>
+            </div>
+        </main>
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
@@ -83,7 +77,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2021</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Restaiii 2021</div>
                     </div>
                 </div>
             </div>
@@ -95,3 +89,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
